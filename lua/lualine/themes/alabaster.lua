@@ -1,21 +1,23 @@
 local colors
 if vim.o.background == "dark" then
+    -- Kanagawa Paper Ink theme colors
     colors = {
-        color1 = "#162022",
-        color2 = "#cd974b",
-        color3 = "#cecece",
-        color4 = "#9F9F9F",
-        color5 = "#333333",
-        color6 = "#cc8bc9",
+        color1 = "#181820",         -- sumiInk1 (statusline bg)
+        color2 = "#c4b28a",         -- dragonYellow (active)
+        color3 = "#DCD7BA",         -- fujiWhite (fg)
+        color4 = "#9e9b93",         -- dragonGray2 (inactive)
+        color5 = "#2A2A37",         -- sumiInk4 (normal bg)
+        color6 = "#a292a3",         -- dragonPink (visual)
     }
 else
+    -- Kanagawa Paper Canvas theme colors
     colors = {
-        color1 = "#c9c9c9",
-        color2 = "#cb9000",
-        color3 = "#222222",
-        color4 = "#666666",
-        color5 = "#aaaaaa",
-        color6 = "#7a3e9d",
+        color1 = "#d1cfc5",         -- canvasWhite2 (statusline bg)
+        color2 = "#cc6d00",         -- lotusOrange (active)
+        color3 = "#575e60",         -- darker fg
+        color4 = "#8e8a80",         -- canvasGray2 (inactive)
+        color5 = "#e6e6e3",         -- canvasWhite5 (normal bg)
+        color6 = "#9e7e98",         -- canvasPink1 (visual)
     }
 end
 
